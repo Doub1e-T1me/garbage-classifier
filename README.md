@@ -21,13 +21,15 @@
 Garbage Classifier는 실시간 웹캠 영상을 통해 재활용 쓰레기를 자동으로 분류하고 데이터를 관리하는 시스템입니다. PyTorch와 ResNet-50 아키텍처를 기반으로 한 딥러닝 모델을 사용하여 높은 정확도의 쓰레기 분류를 실현하였으며, 분류된 데이터는 자동으로 데이터베이스에 저장되어 관리됩니다.
 
 ## 시스템 구성도
+```text
 Frontend (React + TypeScript)
-↕
-Backend (Node.js)
-↕
+          ↕
+    Backend (Node.js)
+          ↕
 AI Model (Python + PyTorch)
-↕
-Database (MariaDB)
+          ↕
+   Database (MariaDB)
+```
 
 ## 주요 기능
 - **실시간 쓰레기 분류**
